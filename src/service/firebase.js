@@ -20,6 +20,7 @@ try {
 
 // using the same instance of firebase.auth() throughout entire app
 // exporting istances as 1 object to be shared across app
+// random change to push to prod on vercel
 
 export const fb = {
   auth: firebase.auth(),
